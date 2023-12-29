@@ -34,7 +34,7 @@ const ActionDropdown = ({
     <Menu>
       <Menu.Item
         icon="eye-outlined"
-        text={Intl.formatMessage({ id: 'preview' })}
+        text={Intl.formatMessage({ id: 'previewdd' })}
         onClick={() => {
           openModal(MODAL_NAMES.PREVIEW_TEMPLATE);
           setCustomData(rowData);
