@@ -34,6 +34,7 @@ export const Body = styled.div`
 export const StyledSelectField = styled(Select)`
   width: calc(100% - 30px);
   display: inline-block;
+  padding: 50px;
 `;
 
 export const StyledRemove = styled.a`
