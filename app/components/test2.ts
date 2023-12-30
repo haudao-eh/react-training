@@ -80,13 +80,13 @@ const AdvancedSearchSettings = ({
         <Card
           sx={{
             borderTop: 0,
+            width: 100,
             borderTopLeftRadius: 0,
             borderTopRightRadius: 0,
             pl: 'medium',
             pr: 'medium',
             pt: 'small',
             pb: 'small',
-            width: 100,
           }}
         >
           <Grid sx={{ mb: 'medium' }}>
