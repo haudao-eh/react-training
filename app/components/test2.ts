@@ -79,7 +79,7 @@ const AdvancedSearchSettings = ({
       <Collapse open={displayAdvancedFilter}>
         <Card
           sx={{
-            borderTop: 10,
+            borderTop: 0,
             width: 100,
             borderTopLeftRadius: 0,
             borderTopRightRadius: 0,
@@ -87,6 +87,7 @@ const AdvancedSearchSettings = ({
             pr: 'medium',
             pt: 'small',
             pb: 'small',
+            height: 50,
           }}
         >
           <Grid sx={{ mb: 'medium' }}>
