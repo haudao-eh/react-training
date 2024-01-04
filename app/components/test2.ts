@@ -80,7 +80,6 @@ const AdvancedSearchSettings = ({
         <Card
           sx={{
             borderTop: 0,
-            width: 100,
             borderTopLeftRadius: 0,
             borderTopRightRadius: 0,
             pl: 'medium',
