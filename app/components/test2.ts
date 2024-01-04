@@ -219,7 +219,7 @@ const AdvancedSearchSettings = ({
             <Button
               variant="text"
               icon="restart"
-              text="Resettt"
+              text="Resett"
               onClick={() => setAdvancedSearchValues(initialFilterValues)}
             />
             <Button
