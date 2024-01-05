@@ -27,7 +27,7 @@ const ActionDropdown = ({
       rightIcon="carat-down-small"
       text={Intl.formatMessage({ id: 'actions' })}
       onClick={toggleDropdown}
-      style={{ padding: 0, width: 70 }}
+      style={{ padding: 0, width: 80 }}
     />
   );
   const dropdownContent = (
