@@ -86,7 +86,7 @@ const AdvancedSearchSettings = ({
             pr: 'medium',
             pt: 'small',
             pb: 'small',
-            height: 100,
+            height: 80,
           }}
         >
           <Grid sx={{ mb: 'medium' }}>
