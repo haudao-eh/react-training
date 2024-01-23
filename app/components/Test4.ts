@@ -13,7 +13,7 @@ const styles = {
     // Need to replace by HD color
     // eslint-disable-next-line @ehrocks/eh-linter/avoid-using-absolute-color
     color: 'orangered',
-    fontWeight: 800,
+    fontWeight: 900,
   },
   marginButton: {
     marginTop: 15,
