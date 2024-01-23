@@ -50,6 +50,7 @@ const ActionDropdown = ({
           selectContract(value);
           closeDropdown();
         }}
+        style={{ padding: 0, width: 100}}
       />
     </Menu>
   );
