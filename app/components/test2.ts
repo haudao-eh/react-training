@@ -147,7 +147,7 @@ const AdvancedSearchSettings = ({
                   }
                 />
               </Grid.Col>
-              <Grid.Col span={[24, 24, 12, 12, 12]}>
+              <Grid.Col span={[24, 24, 12, 12, 12]} style={{ padding: 0 }}>
                 <AdvancedSearchTextInputField
                   type="number"
                   text="Org Interest Weight"
