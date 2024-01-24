@@ -221,6 +221,7 @@ const AdvancedSearchSettings = ({
               icon="restart"
               text="Resette"
               onClick={() => setAdvancedSearchValues(initialFilterValues)}
+              style={{ padding: 50 }}
             />
             <Button
               text="Search"
