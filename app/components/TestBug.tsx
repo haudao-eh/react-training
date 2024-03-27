@@ -4,6 +4,8 @@ import { Button, Typography, Box, ButtonProps } from '@hero-design/react';
 
 import emptyBanner from './assets/empty-banner.png';
 
+console.log('test');
+
 const EmptyImg = styled.img`
   height: 172px;
   margin-bottom: ${({ theme }) => theme.space.small}px;
