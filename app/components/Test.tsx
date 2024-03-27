@@ -33,6 +33,7 @@ const ActionDropdown = ({
   const dropdownContent = (
     <Menu>
       <Menu.Item
+        className="dropdown-item"
         icon="eye-outlined"
         text={Intl.formatMessage({ id: 'preview' })}
         onClick={() => {
@@ -50,7 +51,7 @@ const ActionDropdown = ({
           selectContract(value);
           closeDropdown();
         }}
-        style={{ padding: 0, width: 100}}
+        sx={{ padding: 0, width: 100}}
       />
     </Menu>
   );
