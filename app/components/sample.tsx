@@ -23,7 +23,6 @@ const styles = {
 const Sample = () => {
   <>
     // Snowflakes using classname
-    <Button className="custom-class" />
     // Snowflakes using style prop
     <Card style={{ width: 200 }} /> // acceptable
     // Snowflakes using sx prop
