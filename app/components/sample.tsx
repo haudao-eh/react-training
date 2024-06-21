@@ -40,24 +40,12 @@ const Sample = () => {
     <StyledLink />
     // Snowflakes using classname
     <Button className="custom-class" />
-    <Button.Link className="custom-class" />
-    <Link className="custom-class" />
     // Snowflakes using style prop
-    <Button style={{ width: 200 }} /> // acceptable
-    <Empty style={{ width: 200 }} />
     <Card style={{ width: 200 }} /> // acceptable
     <Card.Header style={{ width: 200 }} />
-    <Button style={customBtnStyles} />
-    <Button style={{ ...customBtnStyles }} />
-    <Button style={styles.btn} />
-    <Button style={{ ...styles.btn }} />
     // Snowflakes using sx prop
     <Badge sx={{ mt: 10 }} /> // acceptable
     <Badge.Count sx={{ mt: 10 }} />
-    <Badge sx={badgeStyles} />
-    <Badge sx={{ ...badgeStyles }} />
-    <Badge sx={styles.badge} />
-    <Badge sx={{ ...styles.badge }} />
   </>;
 };
 
