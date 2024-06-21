@@ -1,20 +1,7 @@
 import React from 'react';
 import { Button, Empty, Card, Badge } from '@hero-design/react';
-import styled from 'styled-components';
 
 // Snowflakes using styled-components;
-const StyledButton = styled(Button)`
-  padding: 10px;
-`;
-
-const StyledLinkButton = styled(Button.Link)`
-  color: red;
-`;
-
-const { Link } = Button;
-const StyledLink = styled(Link)`
-  color: red;
-`;
 
 const customBtnStyles = {
   padding: 30,
@@ -35,17 +22,14 @@ const styles = {
 
 const Sample = () => {
   <>
-    <StyledButton />
-    <StyledLinkButton />
-    <StyledLink />
     // Snowflakes using classname
     <Button className="custom-class" />
     // Snowflakes using style prop
     <Card style={{ width: 200 }} /> // acceptable
-    <Card.Header style={{ width: 200 }} />
+    // <Card.Header style={{ width: 200 }} />
     // Snowflakes using sx prop
     <Badge sx={{ mt: 10 }} /> // acceptable
-    <Badge.Count sx={{ mt: 10 }} />
+    // <Badge.Count sx={{ mt: 10 }} />
   </>;
 };
 

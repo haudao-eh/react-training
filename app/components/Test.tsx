@@ -27,7 +27,7 @@ const ActionDropdown = ({
       rightIcon="carat-down-small"
       text={Intl.formatMessage({ id: 'actions' })}
       onClick={toggleDropdown}
-      style={{ padding: 0, width: 110}}
+      style={{ width: 110}}
     />
   );
   const dropdownContent = (
@@ -51,7 +51,7 @@ const ActionDropdown = ({
           selectContract(value);
           closeDropdown();
         }}
-        sx={{ padding: 0, width: 100}}
+        sx={{ width: 100}}
       />
     </Menu>
   );
