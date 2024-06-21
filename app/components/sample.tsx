@@ -26,10 +26,8 @@ const Sample = () => {
     <Button className="custom-class" />
     // Snowflakes using style prop
     <Card style={{ width: 200 }} /> // acceptable
-    // <Card.Header style={{ width: 200 }} />
     // Snowflakes using sx prop
     <Badge sx={{ mt: 10 }} /> // acceptable
-    // <Badge.Count sx={{ mt: 10 }} />
   </>;
 };
 
