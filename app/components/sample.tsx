@@ -27,7 +27,7 @@ const Sample = () => {
     <Card style={{ width: 200 }} /> // acceptable
     // Snowflakes using sx prop
     <Badge sx={{ mt: 10 }} /> // acceptable
-    <Badge sx={{ pt: 10 }} />
+    <Badge sx={{ pt: 20 }} />
   </>;
 };
 
