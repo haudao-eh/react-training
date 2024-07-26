@@ -28,7 +28,7 @@ const EmptyTableView = ({
     <EmptyImg src={emptyBanner} alt="Empty" />
     <Typography.Text
       fontSize={14}
-      sx={{ color: 'bodyText', mb: 'xxlarge', whiteSpace: 'pre-wrap' }}
+      sx={{ color: 'bodyText', mb: 'xxlarge', whiteSpace: 'pre-wrap' }} // @snowflake-guard/snowflake-approved-by-andromeda
     >
       {message}
     </Typography.Text>
