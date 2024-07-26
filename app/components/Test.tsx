@@ -50,7 +50,6 @@ const ActionDropdown = ({
           selectContract(value);
           closeDropdown();
         }}
-        sx={{ width: 100}}
       />
     </Menu>
   );
