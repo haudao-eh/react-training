@@ -36,9 +36,6 @@ const EmptyTableView = ({
     <Button
       icon={buttonIcon}
       onClick={onButtonClick}
-      sx={{
-        fontWeight: 'semi-bold',
-      }}
       text={buttonText}
     />
   </Box>
