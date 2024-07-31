@@ -24,7 +24,7 @@ const Sample = () => {
   <>
     // Snowflakes using classname
     // Snowflakes using style prop
-    <Card style={{ width: 200 }} /> // acceptable
+    <Card style={{ width: 200, padding: 24 }} /> // acceptable
     // Snowflakes using sx prop
     <Badge sx={{ mt: 10 }} /> // acceptable
   </>;
