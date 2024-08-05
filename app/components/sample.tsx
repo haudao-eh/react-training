@@ -30,8 +30,8 @@ const Sample = () => {
   </>;
 };
 
-const Sample = () => (
+const Sample1 = () => {(
   <div>Test</div>
-);
+)};
 
 export default Sample;
