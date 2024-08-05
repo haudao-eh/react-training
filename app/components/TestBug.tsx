@@ -27,6 +27,7 @@ const EmptyTableView = ({
     <Typography.Text
       fontSize={14}
       sx={{ color: 'bodyText', mb: 'xxlarge', whiteSpace: 'pre-wrap', backgroundColour: 'lightPrimary' }} // @snowflake-guard/snowflake-approved-by-andromeda
+      aria-label="Empty table message"
     >
       {message}
     </Typography.Text>
