@@ -37,6 +37,7 @@ const EmptyTableView = ({
       text={buttonText}
     />
   </Box>
+
 );
 
 export default EmptyTableView;
