@@ -4,8 +4,6 @@ import { Button, Typography, Box, ButtonProps } from '@hero-design/react';
 
 import emptyBanner from './assets/empty-banner.png';
 
-console.log('test');
-
 const EmptyImg = styled.img`
   height: 172px;
   margin-bottom: ${({ theme }) => theme.space.small}px;
@@ -28,7 +26,8 @@ const EmptyTableView = ({
     <EmptyImg src={emptyBanner} alt="Empty" />
     <Typography.Text
       fontSize={14}
-      sx={{ color: 'bodyText', mb: 'xxlarge', whiteSpace: 'pre-wrap' }} // @snowflake-guard/snowflake-approved-by-andromeda
+      sx={{ color: 'bodyText', mb: 'xxlarge', whiteSpace: 'pre-wrap', backgroundColour: 'lightPrimary' }}
+      aria-label="Empty table message"
     >
       {message}
     </Typography.Text>
@@ -39,6 +38,7 @@ const EmptyTableView = ({
       text={buttonText}
     />
   </Box>
+
 );
 
 export default EmptyTableView;
