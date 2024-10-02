@@ -22,6 +22,7 @@ const ActionDropdown = ({
   const toggleDropdown = () => setOpen(!open);
   const closeDropdown = () => setOpen(false);
   const dropdownTarget = (
+    // @snowflake-guard/approved-inline-style attributes: height
     <Button
       variant="text"
       rightIcon="carat-down-small"
