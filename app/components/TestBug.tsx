@@ -24,7 +24,7 @@ const EmptyTableView = ({
 }: EmptyTableViewProps) => (
   <Box sx={{ textAlign: 'center' }}>
     <EmptyImg src={emptyBanner} alt="Empty" />
-    {/* @snowflake-guard/approved-inline-style  attributes: color */}
+    {/* @snowflake-guard/approved-inline-style  attributes: color, backgroundColor */}
     <Typography.Text
       fontSize={14}
       sx={{ color: 'bodyText', mb: 'xxlarge', whiteSpace: 'pre-wrap', backgroundColor: 'lightPrimary' }}
