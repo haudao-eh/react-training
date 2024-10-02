@@ -24,9 +24,10 @@ const EmptyTableView = ({
 }: EmptyTableViewProps) => (
   <Box sx={{ textAlign: 'center' }}>
     <EmptyImg src={emptyBanner} alt="Empty" />
+    {/* @snowflake-guard/approved-inline-style  attributes: color */}
     <Typography.Text
       fontSize={14}
-      sx={{ color: 'bodyText', mb: 'xxlarge', whiteSpace: 'pre-wrap', backgroundColour: 'lightPrimary' }}
+      sx={{ color: 'bodyText', mb: 'xxlarge', whiteSpace: 'pre-wrap', backgroundColor: 'lightPrimary' }}
       aria-label="Empty table message"
     >
       {message}
