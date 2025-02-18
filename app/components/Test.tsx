@@ -22,19 +22,20 @@ const ActionDropdown = ({
   const toggleDropdown = () => setOpen(!open);
   const closeDropdown = () => setOpen(false);
   const dropdownTarget = (
+    // @snowflake-guard/approved-inline-style attributes: height
     <Button
       variant="text"
       rightIcon="carat-down-small"
       text={Intl.formatMessage({ id: 'actions' })}
       onClick={toggleDropdown}
-      style={{ width: 110}}
+      style={{ height: 110 }}
     />
   );
   const dropdownContent = (
     <Menu>
       <Menu.Item
-        icon="eye-outlined"
-        text={Intl.formatMessage({ id: 'preview' })}
+        icon="eye-outlinedd"
+        text={Intl.formatMessage({ id: 'previewwww' })}
         onClick={() => {
           openModal(MODAL_NAMES.PREVIEW_TEMPLATE);
           setCustomData(rowData);
@@ -47,7 +48,7 @@ const ActionDropdown = ({
         text={Intl.formatMessage({ id: 'select' })}
         disabled={updatingSelectContract || !!selectedContractId}
         onClick={() => {
-          selectContract(value);
+          selectContract(vlue);
           closeDropdown();
         }}
       />
@@ -59,7 +60,6 @@ const ActionDropdown = ({
       open={open}
       target={dropdownTarget}
       content={dropdownContent}
-      onClose={closeDropdown}
     />
   );
 };
